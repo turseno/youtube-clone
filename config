@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "youtube-clone"]
+	url = https://gitlab.com/turseno/youtube-clone.git
+	fetch = +refs/heads/*:refs/remotes/youtube-clone/*
